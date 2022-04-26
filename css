@@ -1,0 +1,291 @@
+
+* {
+  border: none;
+text-decoration: none;
+  text-shadow: none;
+}
+
+div.tabs-bar__wrapper {
+  background-color: #282828;
+}
+
+a.tabs-bar__link {
+  background-color: #282828;
+}
+
+div.account__avatar {
+  border-radius: 50%;
+}
+
+div h1 span {
+  font-weight: 700;
+  font-style: normal;
+  
+}
+
+strong.display-name__html {
+  font-weight: 700;
+  font-style: normal;
+  color: #d9d9d9;
+}
+
+input.search__input {
+  background-color: #2c2c2c;
+  border-radius: 25px;
+}
+
+div.columns-area__panels {
+  background-color: #212121;
+  
+}
+
+div.status.status-public {
+  background-color: #323232;
+}
+
+div.status__prepend {
+  background-color: #323232;
+}
+
+div.status__wrapper.status__wrapper-public.focusable {
+  background-color: #323232;
+}
+
+div h1 button {
+  background-color: #2e2e2e;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: #d9d9d9;
+}
+
+nav a span {
+  color: #FF3366;
+  
+}
+
+div div p {
+  color: #c5c5c5;
+  font-family: "Proxima Nova";
+}
+
+span.display-name__account {
+  color: #FF3366;
+}
+
+p a span {
+  color: #FF3366;
+}
+
+i.fa.fa-home.column-header__icon.fa-fw {
+  color: #ffffff;
+}
+
+div.poll__footer {
+  color: #6a6a6a;
+}
+
+span button span {
+  color: #6a6a6a;
+}
+
+i.fa.fa-reply.fa-fw {
+  color: #7e7e7e;
+}
+
+div.status__action-bar {
+  color: #6a6a6a;
+}
+
+span.icon-button__counter {
+  color: #6a6a6a;
+}
+
+i.fa.fa-retweet.fa-fw {
+  color: #7e7e7e;
+}
+
+i.fa.fa-star.fa-fw {
+  color: #6a6a6a;
+}
+
+i.fa.fa-ellipsis-h.fa-fw {
+  color: #6a6a6a;
+}
+
+div div span {
+  color: #7e7e7e;
+}
+
+span span a {
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+a bdi strong {
+  color: #a8a8a8;
+  font-weight: 700;
+  font-style: normal;
+}
+
+button.column-back-button {
+  background-color: #2c2c2c;
+  
+}
+
+i.fa.fa-chevron-left.column-back-button__icon.fa-fw {
+  color: #FF3366;
+}
+
+div.account__header__bar {
+  background-color: #222222;
+}
+
+img.parallax {
+  background-color: #323232;
+}
+
+div h1 small {
+  color: #676767;
+}
+
+div.status-card__content {
+  background-color: #262626;
+}
+
+div.status-card__image {
+  background-color: #1f1f1f;
+}
+
+strong.status-card__title {
+  color: #999999;
+}
+
+i.fa.fa-file-text {
+  color: #b7b7b7;
+}
+
+button.button.button--block {
+  background-color: #FF3366;
+  border-radius: 25px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.autosuggest-textarea__textarea {
+  background-color: #272727;
+  color: #d9d9d9;  
+}
+
+div.compose-form__uploads-wrapper {
+  background-color: #272727;
+}
+
+div.compose-form__buttons-wrapper {
+  background-color: #2e2e2e;
+}
+
+i.fa.fa-paperclip.fa-fw {
+  color: #999999;
+}
+
+i.fa.fa-tasks.fa-fw {
+  color: #999999;
+}
+
+i.fa.fa-globe.fa-fw {
+  color: #999999;
+}
+
+button.text-icon-button {
+  color: #999999;
+}
+
+div.notification.notification-favourite.focusable {
+  background-color: #323232;
+}
+
+div.notification.notification-follow.focusable {
+  background-color: #323232;
+}
+
+i.fa.fa-star.star-icon.fa-fw {
+  color: #e69138;
+}
+
+i.fa.fa-user-plus.fa-fw {
+  color: #00e1ff;
+}
+
+i.fa.fa-user-times.fa-fw {
+  color: #de2e62;
+}
+
+button.button.logo-button {
+  background-color: #FF3366;
+  color: #f3f3f3;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 50px;
+}
+
+.account__section-headline
+ {
+ background-color: #282828; 
+}
+
+.account__section-headline > a {
+  font-weight: bold;
+}
+
+a.tabs-bar__link:nth-child(1) > i:nth-child(1) {
+  color:#ff3366 ;
+}
+
+
+
+i.fa.fa-reply-all.fa-fw {
+  color: #6a6a6a;
+}
+
+div a time {
+  color: #6a6a6a;
+}
+
+div.scrollable {
+  background-color: #323232;
+  
+}
+
+div.detailed-status.detailed-status-public {
+  background-color: #323232;
+}
+
+div.detailed-status__action-bar {
+  background-color: #323232;
+}
+
+i.fa.fa-globe {
+  color: #7e7e7e;
+}
+
+a.detailed-status__application {
+  color: #7e7e7e;
+}
+
+i.fa.fa-retweet {
+  color: #7e7e7e;
+}
+
+a.detailed-status__link {
+  color: #7e7e7e;
+}
+
+i.fa.fa-bookmark.fa-fw {
+  color: #7e7e7e;
+}
+
+div.compose-form {
+  background-color: #212121;
+}
