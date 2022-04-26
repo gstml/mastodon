@@ -289,3 +289,7 @@ i.fa.fa-bookmark.fa-fw {
 div.compose-form {
   background-color: #212121;
 }
+
+div.reply-indicator {
+  background-color: #454545;
+}
