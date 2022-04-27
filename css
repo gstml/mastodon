@@ -1,3 +1,4 @@
+
 * {
   border: none;
 text-decoration: none;
@@ -142,10 +143,14 @@ div h1 small {
 
 div.status-card__content {
   background-color: #262626;
+  border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
 }
 
 div.status-card__image {
   background-color: #1f1f1f;
+  border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
 }
 
 strong.status-card__title {
@@ -451,6 +456,55 @@ div.column-header__collapsible-inner {
   background-color: #404040;
 }
 
-div.react-toggle-thumb {
-  
+button.status__content__spoiler-link.status__content__spoiler-link--show-less,
+button.status__content__spoiler-link.status__content__spoiler-link--show-more {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+p button span {
+  color: #9d9d9d;
+}
+
+div.account__avatar-overlay-base {
+  border-radius: 50px;
+}
+
+div.account__avatar-overlay-overlay {
+  border-radius: 50px;
+}
+
+img.status-card__image-image,
+ {
+  border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+width: 200px;
+}
+
+ canvas.status-card__image-preview,
+ img.status-card__image-image {
+   border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+
+
+
+img.status-card__image-image {
+width: 300px;
+}
+
+.video-player  {
+   border-radius: 20px;
+}
+
+.media-gallery {
+ border-radius: 20px; 
+}
+
+button span span {
+  color: #dedede;
+}
+
+button.icon-button.overlayed {
+  border-radius: 50%;
 }
