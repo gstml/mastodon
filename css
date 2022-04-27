@@ -1,4 +1,3 @@
-
 * {
   border: none;
 text-decoration: none;
@@ -73,10 +72,6 @@ span.display-name__account {
   color: #FF3366;
 }
 
-p a span {
-  color: #FF3366;
-}
-
 i.fa.fa-home.column-header__icon.fa-fw {
   color: #ffffff;
 }
@@ -105,16 +100,12 @@ i.fa.fa-retweet.fa-fw {
   color: #7e7e7e;
 }
 
-i.fa.fa-star.fa-fw {
-  color: #6a6a6a;
-}
-
 i.fa.fa-ellipsis-h.fa-fw {
   color: #6a6a6a;
 }
 
 div div span {
-  color: #7e7e7e;
+  color: #797979;
 }
 
 span span a {
@@ -146,7 +137,7 @@ img.parallax {
 }
 
 div h1 small {
-  color: #676767;
+  color: #999999;
 }
 
 div.status-card__content {
@@ -292,4 +283,174 @@ div.compose-form {
 
 div.reply-indicator {
   background-color: #454545;
+}
+
+div.public-layout {
+  background-color: #1f1f1f;
+  
+}
+
+html {
+  background-color: #1f1f1f;
+}
+
+div.nav-center {
+  background-color: #282828;
+}
+
+a.nav-link.optional {
+  background-color: #282828;
+  color: #efefef;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div.nav-right {
+  background-color: #282828;
+}
+
+a.brand {
+  background-color: #282828;
+}
+
+a.status__content__read-more-button {
+  color: #999999;
+  font-size: 13px;
+}
+
+div.public-account-bio__extra {
+  background-color: #262626;
+  color: #999999;
+  
+}
+
+div.account__header__content.emojify {
+  background-color: #262626;
+}
+
+div.placeholder-widget {
+  background-color: #262626;
+  color: #999999;
+}
+
+div div a {
+  color: #d9d9d9;
+}
+
+div.hero-widget__text {
+  background-color: #262626;
+}
+
+h4.emojify {
+  color: #cccccc;
+}
+
+a.nav-link.nav-button.webapp-btn {
+  background-color: #FF3366;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a.button.logo-button {
+  background-color: #FF3366;
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+div.entry.h-cite.entry-reblog {
+  background-color: #323232;
+  
+}
+
+div div h4 {
+  color: #666666;
+}
+
+ul li a {
+  color: #b7b7b7;
+}
+
+dd.translate {
+  background-color: #1e1e1e;
+  line-height: 2.5em;
+  text-align: left;
+}
+
+span.ellipsis {
+  font-size: 14px;
+  color: #999999;
+}
+
+dl dd span {
+  font-size: 14px;
+}
+
+dt.translate {
+  font-size: 13px;
+  color: #999999;
+  background-color: #1e1e1e;
+  text-align: left;
+  padding-left: 1.5em;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div.upload-progress {
+  background-color: #363636;
+  
+}
+
+div.upload-progress__tracker {
+  background-color: #FF3366;
+}
+
+i.fa.fa-upload {
+  color: #666666;
+}
+
+span a span {
+  color: #cccccc;
+}
+
+div.picture-in-picture__header {
+  background-color: #202020;
+  
+}
+
+div.picture-in-picture__footer {
+  background-color: #202020;
+}
+
+i.fa.fa-times.fa-fw {
+  color: #7e7e7e;
+}
+
+.picture-in-picture {
+  border-radius: 25%;
+  -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.64); 
+box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.64);
+}
+
+.picture-in-picture__header {
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+
+.picture-in-picture__footer {
+  border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+
+div.detailed-status.detailed-status-unlisted {
+  background-color: #32302E;
+}
+
+div.column-header__collapsible-inner {
+  background-color: #404040;
+}
+
+div.react-toggle-thumb {
+  
 }
