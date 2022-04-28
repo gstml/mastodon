@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
 * {
   border: none;
-text-decoration: none;
+  text-decoration: none;
   text-shadow: none;
 }
 
@@ -19,7 +21,7 @@ div.account__avatar {
 div h1 span {
   font-weight: 700;
   font-style: normal;
-  
+
 }
 
 strong.display-name__html {
@@ -35,7 +37,8 @@ input.search__input {
 
 div.columns-area__panels {
   background-color: #212121;
-  
+  font-family: Muli;
+
 }
 
 div.status.status-public {
@@ -60,7 +63,7 @@ div h1 button {
 
 nav a span {
   color: #FF3366;
-  
+
 }
 
 div div p {
@@ -120,7 +123,7 @@ a bdi strong {
 
 button.column-back-button {
   background-color: #2c2c2c;
-  
+
 }
 
 i.fa.fa-chevron-left.column-back-button__icon.fa-fw {
@@ -142,13 +145,13 @@ div h1 small {
 div.status-card__content {
   background-color: #262626;
   border-top-right-radius: 15px;
-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 div.status-card__image {
   background-color: #1f1f1f;
   border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 strong.status-card__title {
@@ -169,11 +172,11 @@ button.button.button--block {
 
 .autosuggest-textarea__textarea {
   background-color: #272727;
-  color: #d9d9d9;  
+  color: #d9d9d9;
 }
 
 div.compose-form__uploads-wrapper {
-  background-color: #272727;
+  background-color: #333;
 }
 
 div.compose-form__buttons-wrapper {
@@ -224,19 +227,17 @@ button.button.logo-button {
   border-radius: 50px;
 }
 
-.account__section-headline
- {
- background-color: #282828; 
+.account__section-headline {
+  background-color: #282828;
 }
 
-.account__section-headline > a {
+.account__section-headline>a {
   font-weight: bold;
 }
 
-a.tabs-bar__link:nth-child(1) > i:nth-child(1) {
-  color:#ff3366 ;
+a.tabs-bar__link:nth-child(1)>i:nth-child(1) {
+  color: #ff3366;
 }
-
 
 
 i.fa.fa-reply-all.fa-fw {
@@ -249,7 +250,7 @@ div a time {
 
 div.scrollable {
   background-color: #323232;
-  
+
 }
 
 div.detailed-status.detailed-status-public {
@@ -290,7 +291,7 @@ div.reply-indicator {
 
 div.public-layout {
   background-color: #1f1f1f;
-  
+
 }
 
 html {
@@ -324,7 +325,7 @@ a.status__content__read-more-button {
 div.public-account-bio__extra {
   background-color: #262626;
   color: #999999;
-  
+
 }
 
 div.account__header__content.emojify {
@@ -364,7 +365,7 @@ a.button.logo-button {
 
 div.entry.h-cite.entry-reblog {
   background-color: #323232;
-  
+
 }
 
 div div h4 {
@@ -402,7 +403,7 @@ dt.translate {
 
 div.upload-progress {
   background-color: #363636;
-  
+
 }
 
 div.upload-progress__tracker {
@@ -419,7 +420,7 @@ span a span {
 
 div.picture-in-picture__header {
   background-color: #202020;
-  
+
 }
 
 div.picture-in-picture__footer {
@@ -432,18 +433,18 @@ i.fa.fa-times.fa-fw {
 
 .picture-in-picture {
   border-radius: 25%;
-  -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.64); 
-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.64);
+  -webkit-box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.64);
 }
 
 .picture-in-picture__header {
-border-top-left-radius: 15px;
-border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .picture-in-picture__footer {
   border-bottom-right-radius: 15px;
-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 div.detailed-status.detailed-status-unlisted {
@@ -473,30 +474,29 @@ div.account__avatar-overlay-overlay {
 }
 
 img.status-card__image-image,
- {
-  border-top-left-radius: 15px;
+{
+border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
 width: 200px;
 }
 
- canvas.status-card__image-preview,
- img.status-card__image-image {
-   border-top-left-radius: 15px;
-border-bottom-left-radius: 15px;
+canvas.status-card__image-preview,
+img.status-card__image-image {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
-
 
 
 img.status-card__image-image {
-width: 300px;
+  width: 300px;
 }
 
-.video-player  {
-   border-radius: 20px;
+.video-player {
+  border-radius: 20px;
 }
 
 .media-gallery {
- border-radius: 20px; 
+  border-radius: 20px;
 }
 
 button span span {
@@ -505,4 +505,80 @@ button span span {
 
 button.icon-button.overlayed {
   border-radius: 50%;
+}
+
+.dropdown-menu__container__list {
+  border-radius: 15px;
+  background-color: #222222;
+}
+
+li.dropdown-menu__item>a {
+  background-color: #222;
+}
+
+.dropdown-menu {
+  background-color: #222;
+  border-radius: 15px;
+  padding: 1em;
+}
+
+span.relationship-tag {
+  background-color: #191919;
+  border-radius: 8px;
+  padding: 0.5em;
+}
+
+span.relationship-tag>span {
+  color: #dedede;
+}
+
+.compose-form__autosuggest-wrapper {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #27211C;
+}
+
+img.emojione {
+  padding-top: 2px;
+  padding-right: 2px;
+  width: 15px;
+}
+
+.compose-form__buttons-wrapper {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+textarea.autosuggest-textarea__textarea {
+  background-color: #333;
+}
+
+div.compose-panel {
+  margin-right: 2em;
+}
+
+div.columns-area__panels__pane__inner {
+  margin-right: 2em;
+  margin-top: 2.35em;
+  margin-bottom: 2.35em;
+}
+
+div a span {
+  font-size: 14px;
+}
+
+strong.navigation-bar__profile-account {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+div.getting-started__footer {
+  color: #666666;
+  opacity: 0.5;
+  padding-bottom: 4em;
+}
+
+div.getting-started__footer:hover {
+  opacity: 1;
 }
