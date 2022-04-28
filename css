@@ -590,3 +590,13 @@ div.getting-started__footer:hover{
 
 span.invisible {
 visibility: hidden;}
+
+div.empty-column-indicator {
+  background-color: #282828;
+  
+}
+
+.account__section-headline a.active::after, .account__section-headline button.active::after, .notification__filter-bar a.active::after, .notification__filter-bar button.active::after {
+  bottom: -1px;
+  border-color: transparent transparent #323232;
+}
