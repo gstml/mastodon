@@ -384,7 +384,7 @@ dd.translate {
 }
 
 span.ellipsis {
-  color: #999999;
+  color: #666666;
 
 }
 
@@ -393,13 +393,13 @@ dl dd span {
 }
 
 dt.translate {
-  font-size: 13px;
   color: #999999;
   background-color: #1e1e1e;
   text-align: left;
   padding-left: 1.5em;
   font-weight: 700;
   font-style: normal;
+  width: 10em;
 }
 
 div.upload-progress {
@@ -416,7 +416,7 @@ i.fa.fa-upload {
 }
 
 span a span {
-  color: #cccccc;
+  color: #666666;
 }
 
 div.picture-in-picture__header {
