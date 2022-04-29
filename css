@@ -123,7 +123,6 @@ a bdi strong {
 
 button.column-back-button {
   background-color: #2c2c2c;
-  
 }
 
 i.fa.fa-chevron-left.column-back-button__icon.fa-fw {
@@ -167,6 +166,7 @@ button.button.button--block {
   border-radius: 25px;
   font-weight: 700;
   font-style: normal;
+  margin-top: 0.5em;
 }
 
 
@@ -555,14 +555,20 @@ textarea.autosuggest-textarea__textarea {
   filter: saturate(0);
 }
 
-div.compose-panel {
-  margin-right: 2em;
+.compose-panel {
+  width: 320px;
 }
 
 div.columns-area__panels__pane__inner {
-  margin-right: 2em;
+  margin-right: 4em;
+  margin-left: 4em;
   margin-top: 2.35em;
   margin-bottom: 2.35em;
+  }
+
+  .autosuggest-textarea {
+    height: 180px;
+    background-color: #333333;
   }
 
 div a span {
@@ -667,4 +673,13 @@ background-color: #efefef
 
 button.emoji-mart-anchor {
   opacity: 0.55;
+}
+
+body {
+  padding-left: 10%;
+  background-color: #212121;
+}
+
+div.compose-form__publish {
+  
 }
