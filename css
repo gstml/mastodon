@@ -289,6 +289,8 @@ div.compose-form {
 
 div.reply-indicator {
   background-color: #454545;
+  border-radius: 14px;
+  padding-bottom: 2.5em;
 }
 
 div.public-layout {
@@ -678,8 +680,4 @@ button.emoji-mart-anchor {
 body {
   padding-left: 10%;
   background-color: #212121;
-}
-
-div.compose-form__publish {
-  
 }
