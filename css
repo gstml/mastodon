@@ -89,10 +89,6 @@ i.fa.fa-reply.fa-fw {
   filter: saturate(0);
 }
 
-.status-public {
-filter: saturate(0);  
-}
-
 div.status__action-bar {
   color: #6a6a6a;
 }
