@@ -610,3 +610,7 @@ div.detailed-status__button {
 i.fa.fa-star.fa-fw {
   filter: saturate(0);  
 }
+
+i.fa.fa-thumb-tack.status__prepend-icon.fa-fw {
+  filter: saturate(0);
+}
