@@ -536,10 +536,7 @@ border-top-right-radius: 15px;
 background-color: #27211C;
 }
 
-img.emojione {
-  padding-top: 2px;
-  padding-right: 2px;
-  width: 15px;
+.emoji-button > img:nth-child(1) {
   visibility: hidden;
 }
 
@@ -609,8 +606,6 @@ div.detailed-status__button {
   filter: saturate(0);
 }
 
-
-
 .icon-button {
   color: #696969;
 }
@@ -625,4 +620,8 @@ filter: saturate(0);
 
 div.emoji-button {
   padding-top: 10px;
+}
+
+img.emojione {
+  
 }
