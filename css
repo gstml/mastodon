@@ -540,7 +540,13 @@ img.emojione {
   padding-top: 2px;
   padding-right: 2px;
   width: 15px;
+  visibility: hidden;
 }
+
+.emoji-button::before
+{content: "\1F43F";
+}
+
 
 .compose-form__buttons-wrapper {
   border-bottom-right-radius: 15px;
@@ -603,10 +609,6 @@ div.detailed-status__button {
   filter: saturate(0);
 }
 
-i.fa.fa-star.fa-fw {
-
-}
-
 
 
 .icon-button {
@@ -619,4 +621,8 @@ i.fa.fa-star.fa-fw {
 
 i.fa.fa-thumb-tack.status__prepend-icon.fa-fw {
 filter: saturate(0);
+}
+
+div.emoji-button {
+  padding-top: 10px;
 }
