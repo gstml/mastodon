@@ -103,6 +103,7 @@ span.icon-button__counter {
 
 i.fa.fa-retweet.fa-fw {
   color: #7e7e7e;
+  filter: saturate(0);
 }
 
 i.fa.fa-ellipsis-h.fa-fw {
@@ -608,4 +609,8 @@ div.empty-column-indicator {
 
 div.detailed-status__button {
   filter: saturate(0);
+}
+
+i.fa.fa-star.fa-fw {
+  filter: saturate(0);  
 }
