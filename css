@@ -415,10 +415,6 @@ i.fa.fa-upload {
   color: #666666;
 }
 
-span a span {
-  color: #666666;
-}
-
 div.picture-in-picture__header {
   background-color: #202020;
   
@@ -608,9 +604,19 @@ div.detailed-status__button {
 }
 
 i.fa.fa-star.fa-fw {
-  filter: saturate(0);  
+
+}
+
+
+
+.icon-button {
+  color: #696969;
+}
+
+.icon-button.star-icon.active, .notification__favourite-icon-wrapper .star-icon {
+  color: #F49A00;
 }
 
 i.fa.fa-thumb-tack.status__prepend-icon.fa-fw {
-  filter: saturate(0);
+filter: saturate(0);
 }
