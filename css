@@ -622,6 +622,49 @@ div.emoji-button {
   padding-top: 10px;
 }
 
-img.emojione {
-  
+.emoji-picker-dropdown__menu {
+  border-radius: 20px;
+  padding: 1em;
+  background-color: #ccc;
+}
+
+.emoji-mart-bar {
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+background-color: #D7D7D7;}
+
+button.emoji-mart-anchor:nth-child(1) > div:nth-child(1) > svg:nth-child(1) {
+  fill:#FF3366;
+}
+
+emoji-mart-anchor-selected {
+  color: #FF3366;
+}
+
+.emoji-mart-scroll {
+  border-bottom-right-radius: 15px;
+border-bottom-left-radius: 15px;
+background-color: #efefef;}
+
+.emoji-mart-search,
+section.emoji-mart-category:nth-child(2) > div:nth-child(1) > span:nth-child(1),
+section.emoji-mart-category:nth-child(3) > div:nth-child(1) > span:nth-child(1) {
+background-color: #efefef  
+}
+
+.emoji-mart-anchor-bar {
+  background-color: #FF3366;
+}
+
+.emoji-picker-dropdown__modifiers > button:nth-child(1){
+  visibility: hidden;
+}
+
+.emoji-mart-search input {
+  border-radius: 50px;
+  background-color: #ddd;
+}
+
+button.emoji-mart-anchor {
+  opacity: 0.55;
 }
