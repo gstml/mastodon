@@ -86,7 +86,11 @@ span button span {
 }
 
 i.fa.fa-reply.fa-fw {
-  color: #7e7e7e;
+  filter: saturate(0);
+}
+
+.status-public {
+filter: saturate(0);  
 }
 
 div.status__action-bar {
@@ -552,6 +556,7 @@ border-bottom-left-radius: 15px;
 
 textarea.autosuggest-textarea__textarea {
   background-color: #333;
+  filter: saturate(0);
 }
 
 div.compose-panel {
@@ -599,4 +604,8 @@ div.empty-column-indicator {
 .account__section-headline a.active::after, .account__section-headline button.active::after, .notification__filter-bar a.active::after, .notification__filter-bar button.active::after {
   bottom: -1px;
   border-color: transparent transparent #323232;
+}
+
+div.detailed-status__button {
+  filter: saturate(0);
 }
