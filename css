@@ -458,6 +458,7 @@ button.status__content__spoiler-link.status__content__spoiler-link--show-less,
 button.status__content__spoiler-link.status__content__spoiler-link--show-more {
   background-color: #575757;
   border-radius: 5px;
+  margin-left: 5px;
 }
 
 p button span {
@@ -680,4 +681,17 @@ button.emoji-mart-anchor {
 body {
   padding-left: 10%;
   background-color: #212121;
+}
+
+input.spoiler-input__input {
+  border-radius: 15px;
+  background-color: #191919;
+}
+
+#cw-spoiler-input {
+  color: whitesmoke;
+}
+
+button.status__content__spoiler-link.status__content__spoiler-link--show-more {
+  
 }
