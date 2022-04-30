@@ -692,6 +692,10 @@ input.spoiler-input__input {
   color: whitesmoke;
 }
 
-button.status__content__spoiler-link.status__content__spoiler-link--show-more {
-  
+.column-header__wrapper.active {
+  box-shadow: 0 1px 0 rgba(37, 36, 37, .6);
+}
+
+.column-header__wrapper.active::before {
+  background: radial-gradient(ellipse, rgba(37, 36, 37, 1) 1%,rgba(43,144,217,0) 70%);
 }
