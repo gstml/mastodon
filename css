@@ -38,6 +38,7 @@ input.search__input {
 div.columns-area__panels {
   background-color: #212121;
   font-family: Muli;  
+  margin-left: 5em;
 }
 
 div.status.status-public {
@@ -60,7 +61,7 @@ div h1 button {
   color: #d9d9d9;
 }
 
-nav a span {
+nav a span:hover {
   color: #FF3366;
   
 }
@@ -71,10 +72,6 @@ div div p {
 
 span.display-name__account {
   color: #FF3366;
-}
-
-i.fa.fa-home.column-header__icon.fa-fw {
-  color: #ffffff;
 }
 
 div.poll__footer {
@@ -95,11 +92,6 @@ div.status__action-bar {
 
 span.icon-button__counter {
   color: #6a6a6a;
-}
-
-i.fa.fa-retweet.fa-fw {
-  color: #7e7e7e;
-  filter: saturate(0);
 }
 
 i.fa.fa-ellipsis-h.fa-fw {
@@ -236,11 +228,6 @@ button.button.logo-button {
   font-weight: bold;
 }
 
-a.tabs-bar__link:nth-child(1) > i:nth-child(1) {
-  color:#ff3366 ;
-}
-
-
 
 i.fa.fa-reply-all.fa-fw {
   color: #6a6a6a;
@@ -293,6 +280,12 @@ div.reply-indicator {
   padding-bottom: 2.5em;
 }
 
+.reply-indicator__content {
+  height: 10em;
+}
+.reply-indicator__content{
+  height: 45em;
+}
 div.public-layout {
   background-color: #1f1f1f;
   
@@ -401,7 +394,7 @@ dt.translate {
   padding-left: 1.5em;
   font-weight: 700;
   font-style: normal;
-  width: 10em;
+  width: 12em;
 }
 
 div.upload-progress {
@@ -679,7 +672,7 @@ button.emoji-mart-anchor {
 }
 
 body {
-  padding-left: 10%;
+  spadding-left: 10%;
   background-color: #212121;
 }
 
@@ -698,4 +691,21 @@ input.spoiler-input__input {
 
 .column-header__wrapper.active::before {
   background: radial-gradient(ellipse, rgba(37, 36, 37, 1) 1%,rgba(43,144,217,0) 70%);
+}
+
+.autosuggest-textarea__suggestions-wrapper {
+	background-color: #333;
+}
+
+i.fa:hover {
+color: #FF3366;
+}
+
+.account__section-headline > button {
+  background-color: #242424;
+}
+
+div.navigation-panel {
+  max-width: 85%;
+margin-left: -3em;
 }
