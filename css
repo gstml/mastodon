@@ -709,3 +709,12 @@ div.navigation-panel {
   max-width: 85%;
 margin-left: -3em;
 }
+
+.status-card-video iframe {
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+.status-card.horizontal .status-card__image {
+  background-color: transparent;
+}
