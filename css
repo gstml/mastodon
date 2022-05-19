@@ -711,12 +711,11 @@ margin-left: -3em;
 }
 
 .status-card-video iframe {
-  border-radius: 20px;
-  background-color: transparent;
+  border-radius: 15px;
 }
 
 .status-card.horizontal .status-card__image {
-  background-color: transparent;
+border-radius: 15px;
 }
 
 .status-card__image{
@@ -725,4 +724,5 @@ margin-left: -3em;
 
 .status-card__content {
   border-radius: 15px;
+
 }
