@@ -718,3 +718,11 @@ margin-left: -3em;
 .status-card.horizontal .status-card__image {
   background-color: transparent;
 }
+
+.status-card__image{
+  margin-bottom: 1em;
+}
+
+.status-card__content {
+  border-radius: 15px;
+}
