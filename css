@@ -37,7 +37,7 @@ input.search__input {
 
 div.columns-area__panels {
   background-color: #212121;
-  font-family: Muli;  
+  font-family: "Muli";  
   margin-left: 5em;
 }
 
@@ -68,6 +68,7 @@ nav a span:hover {
 
 div div p {
   color: #c5c5c5;
+  font-family: 'Muli';
 }
 
 span.display-name__account {
@@ -723,4 +724,49 @@ div.picture-in-picture {
   background-color: #202020;
   padding: 1em;
   border-radius: 20px;
+}
+
+img.u-photo.account__avatar {
+  border-radius: 50%;
+}
+
+div.entry.h-entry {
+  background-color: #323232;
+}
+
+dd.emojify {
+  background-color: #323232;
+}
+
+dt.emojify {
+  background-color: #1F1F1F;
+}
+
+div.hero-widget__img {
+  background-color: #1D1D1D;
+}
+
+a.column-link {
+  background-color: #323232;
+  font-family: 'Muli';
+  font-size: 1.15em;
+  color: #dedede;
+}
+
+div.column-subheading {
+  background-color: #282828;
+}
+
+.zoomable-image > img {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.64); 
+box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.64);
+}
+
+div.zoomable-image {
+background: rgba( 25, 25, 25, 0.6 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 17.5px );-webkit-backdrop-filter: blur( 17.5px );
+}
+
+div.ui.is-composing {
+  
 }
