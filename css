@@ -4,6 +4,7 @@
   border: none;
 text-decoration: none;
   text-shadow: none;
+
 }
 
 div.tabs-bar__wrapper {
@@ -38,7 +39,6 @@ input.search__input {
 div.columns-area__panels {
   background-color: #212121;
   font-family: "Muli";  
-  margin-left: 5em;
 }
 
 div.status.status-public {
@@ -68,7 +68,7 @@ nav a span:hover {
 
 div div p {
   color: #c5c5c5;
-  font-family: 'Muli';
+  font-family: "Muli";
 }
 
 span.display-name__account {
@@ -375,7 +375,6 @@ ul li a {
 }
 
 dd.translate {
-  background-color: #1e1e1e;
   text-align: left;
 }
 
@@ -390,9 +389,7 @@ dl dd span {
 
 dt.translate {
   color: #999999;
-  background-color: #1e1e1e;
   text-align: left;
-  padding-left: 1.5em;
   font-weight: 700;
   font-style: normal;
   width: 12em;
@@ -558,12 +555,15 @@ textarea.autosuggest-textarea__textarea {
 }
 
 div.columns-area__panels__pane__inner {
-  margin-right: 4em;
-  margin-left: 4em;
+  margin-right: 3em;
+  margin-left: 3em;
   margin-top: 2.35em;
   margin-bottom: 2.35em;
   }
 
+.search {
+  width: 96%;
+}
   .autosuggest-textarea {
     height: 180px;
     background-color: #333333;
@@ -764,5 +764,101 @@ box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.64);
 }
 
 div.zoomable-image {
-background: rgba( 25, 25, 25, 0.55 );;backdrop-filter: blur( 10px );-webkit-backdrop-filter: blur( 17.5px );
+background: rgba( 25, 25, 25, 0.6 );box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );backdrop-filter: blur( 17.5px );-webkit-backdrop-filter: blur( 17.5px );
+}
+
+div.reply-indicator__content.translate {
+  color: #b7b7b7;
+}
+
+
+
+a.column-link.column-link--transparent.active {
+  background-color:rgb(46, 46, 46);
+border-radius: 20px;
+}
+
+a.column-link.column-link--logo {
+  background-color: transparent;
+  filter: hue-rotate(9deg);
+}
+
+i.icon-with-badge__badge {
+  background-color:rgb(255, 51, 102);
+}
+
+a.column-link.column-link--transparent {
+   background-color: transparent;
+}
+
+i.fa.fa-home.column-header__icon.fa-fw {
+  color: rgb(255, 51, 102);
+}
+
+div.account__header__bio,
+.account__header__fields {
+   background-color: #222;
+}
+
+div dl dd {
+  color: #cccccc;
+}
+
+.notification.unread::before, .status__wrapper.unread::before {
+  border-left: 3px solid rgb(255, 51, 102);
+}
+
+i.fa.fa-bell.column-header__icon.fa-fw {
+  color: rgb(255, 51, 102);
+}
+
+div.ui__header {
+   background-color: #282828;
+}
+
+a svg use {
+    background-color: transparent;
+  filter: hue-rotate(78deg);
+}
+
+a.button {
+    background-color: rgb(255, 51, 102);
+    border-radius: 50px;
+
+}
+
+.button > span:nth-child(1) {
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+  @media screen and (max-width: 1174px)
+.columns-area__panels__pane--navigational .navigation-panel {
+  background: #212121;
+background-color: #212121;
+}
+
+div.boost-modal__container {
+  background-color: #404040; 
+-webkit-box-shadow: 0px 4px 15px 5px #000000; 
+box-shadow: 0px 4px 15px 5px #000000;
+}
+
+div.boost-modal__action-bar {
+   background-color: #404040; 
+   -webkit-box-shadow: 0px 13px 15px 5px #000000; 
+box-shadow: 0px 13px 8px 5px #000000;
+}
+
+button.button {
+  background-color: #FF3366;
+  border-radius: 50px;
+}
+
+div.status.status-public.light {
+  border-radius: 6px;
+}
+
+div.status__info {
+  
 }
