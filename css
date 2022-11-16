@@ -775,3 +775,11 @@ textarea.setting-text.light {
 .setting-text__wrapper{
    background-color: transparent; 
 }
+
+div.link-footer {
+  visibility: hidden;
+}
+
+i.fa.fa-retweet.fa-fw {
+  color: #FE6300;
+}
