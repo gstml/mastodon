@@ -237,7 +237,7 @@ i.fa.fa-thumb-tack.status__prepend-icon.fa-fw {
 }
 
 div.zoomable-image {
-  background: rgba( 9, 9, 9, 0.2 ) ;box-shadow: 0 8px 32px 0 rgba(   31, 38, 135, 0.37 );backdrop-filter: blur( 17.5px );    -webkit-backdrop-filter: blur( 17.5px );
+  background: rgba( 9, 9, 9, 0.6 ) ;box-shadow: 0 8px 32px 0 rgba(   31, 38, 135, 0.37 );backdrop-filter: blur( 17.5px );    -webkit-backdrop-filter: blur( 17.5px );
 }
 
 a.column-link.column-link--logo {
