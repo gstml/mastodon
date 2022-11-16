@@ -759,6 +759,19 @@ div.link-footer  {
   filter: saturate(0) brightness(0.7);
 }
 
-a.column-link.column-link--transparent {
-  
+.report-modal{
+  border-radius: 20px;
+  border: 1px solid #2d2d2d;
+ background-color: #1c1c1c; 
+box-shadow: 0px 10px 17px 10px rgba(0,0,0,0.75);
+}
+
+textarea.setting-text.light {
+  font-family: "Mulish";
+  border-radius: 15px;
+  background-color: #ccc;
+}
+
+.setting-text__wrapper{
+   background-color: transparent; 
 }
