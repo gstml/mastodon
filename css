@@ -883,3 +883,7 @@ div.compose-form__sensitive-button {
 i.fa.fa-star {
   color: #FE6300;
 }
+
+i.fa.fa-star.column-link__icon.fa-fw {
+  color: #808080;
+}
