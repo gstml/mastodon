@@ -13,7 +13,6 @@ body {
   transition: all 0.61s ease-in-out;
 
 }
-}
 
 a:link{
   color: #FF6300;
@@ -237,7 +236,7 @@ i.fa.fa-thumb-tack.status__prepend-icon.fa-fw {
 }
 
 div.zoomable-image {
-  background: rgba( 9, 9, 9, 0.6 ) ;box-shadow: 0 8px 32px 0 rgba(   31, 38, 135, 0.37 );backdrop-filter: blur( 17.5px );    -webkit-backdrop-filter: blur( 17.5px );
+background: rgba( 9, 9, 9, 0.2 ) ;box-shadow: 0 8px 32px 0 rgba(   31, 38, 135, 0.37 );backdrop-filter: blur( 17.5px );    -webkit-backdrop-filter: blur( 17.5px );
 }
 
 a.column-link.column-link--logo {
@@ -370,6 +369,7 @@ margin-bottom: 1.5em;
 
 input.search__input {
   background-color: #333;
+  color: #b4b4b4;
   border-radius: 50px;
   font-size: 1.05em;
 }
@@ -666,7 +666,7 @@ i.fa.fa-chevron-left.column-back-button__icon.fa-fw {
 img.parallax {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-
+  background-color: #1F1F1F;
 }
 
 div.account__header__image {
@@ -782,4 +782,80 @@ div.link-footer {
 
 i.fa.fa-retweet.fa-fw {
   color: #FE6300;
+}
+
+div.modal-root__modal.boost-modal {
+  border-radius: 20px;
+  border: 1px solid #2d2d2d;
+  background-color: #1c1c1c; 
+  box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.4);
+}
+
+div.status.status-public.light{
+  border-radius: 10px;
+}
+
+div.boost-modal__action-bar {
+  background-color: #1C1C1C;
+}
+
+div.modal-root__overlay {
+  background: rgba( 9, 9, 9, 0.5);  
+  backdrop-filter: blur(50px)
+}
+
+i.fa.fa-bell-o.fa-fw {
+  color: #b4b4b4;
+}
+
+div.translate-button {
+  background-color: rgba(   9, 9, 9, 0.1);
+  border-radius: 4px;
+  padding: 0.75em;
+  font-size: smaller;
+}
+.link-button {
+  font-size: 1em;
+}
+
+textarea.account__header__account-note__content {
+  font-family: "Mulish";
+  border-radius: 2px;
+}
+
+.account__header__account-note{
+    background-color:rgba(17, 17, 17, 0.25);
+    padding: 1em
+}
+
+.account__header__account-note textarea::placeholder,
+.account__header__account-note textarea {
+    color: #565656;
+}
+
+i.fa.fa-ellipsis-h.fa-fw {
+  color: rgb(126, 126, 126);
+}
+
+.dropdown-menu {
+  border-radius: 20px;
+  background-color: #1C1C1C;
+  padding: 0.75em;
+  border: 1px solid #282828;
+}
+
+dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item a:hover, .dropdown-menu__item button:active, .dropdown-menu__item button:focus, .dropdown-menu__item button:hover {
+  background: #000;
+  color: rgb(254, 99, 0);
+  border-radius: 9px;
+}
+
+.dropdown-menu__item a {
+  background-color: transparent;
+  color: #b4b4b4;
+  font-family: "Mulish";
+}
+
+body div div {
+  
 }
