@@ -558,6 +558,12 @@ i.fa.fa-globe {
 a.detailed-status__application {
   font-family: "Mulish";
   color: #808080;
+  border-radius: 8px;
+  background-color: #383838;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 
 div.error-column {
@@ -871,12 +877,9 @@ div.compose-form__sensitive-button {
   font-weight: bold;
 }
 
-div.server-banner__meta {
-  border-radius: 20px;
-  background-color: #353535;
-  padding: 1em;
-}
+.notification.unread::before, .status__wrapper.unread::before {
+  border-left: none;}
 
-div.server-banner {
-  font-family: "Mulish";
+i.fa.fa-star {
+  color: #FE6300;
 }
