@@ -295,6 +295,11 @@ textarea.autosuggest-textarea__textarea {
 
 div.compose-form__uploads-wrapper {
   background-color: #333;
+
+}
+
+.compose-form .compose-form__modifiers .compose-form__upload {
+  padding-top: 2.2em;
 }
 
 div.compose-form__buttons-wrapper {
@@ -858,4 +863,10 @@ dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item
 
 .account__header__bar .avatar {
   margin-left: 0px;
+}
+
+div.compose-form__sensitive-button {
+  background-color:rgb(25, 25, 25);
+  padding-top: 0.5em;
+  font-weight: bold;
 }
