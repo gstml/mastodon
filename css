@@ -870,3 +870,13 @@ div.compose-form__sensitive-button {
   padding-top: 0.5em;
   font-weight: bold;
 }
+
+div.server-banner__meta {
+  border-radius: 20px;
+  background-color: #353535;
+  padding: 1em;
+}
+
+div.server-banner {
+  font-family: "Mulish";
+}
