@@ -13,7 +13,7 @@ body {
   transition: all 0.61s ease-in-out;
 
 }
-
+}
 a:link{
   color: #FF6300;
 }
@@ -856,6 +856,6 @@ dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item
   font-family: "Mulish";
 }
 
-body div div {
-  
+.account__header__bar .avatar {
+  margin-left: 0px;
 }
