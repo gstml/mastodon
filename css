@@ -887,6 +887,11 @@ i.fa.fa-unlock {
   color: #808080;
 }
 
+div.status.status-unlisted.status-reply.muted {
+  background-color: #353535;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;;
+}
 /* SHRINK */
 @media only screen and (min-width:30em)
 {
@@ -897,3 +902,4 @@ div.columns-area__panels__main, div.stabs-bar__wrapper{
 
 
 }
+
