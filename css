@@ -261,10 +261,11 @@ i.fa.fa-home.column-header__icon.fa-fw {
 }
 /* AVATARS */
 
-.account__avatar {
+.account__avatar,
+a .account__avatar {
   position:relative;
   display:inline-block;
-  border-radius: 15px;
+  border-radius: 36% 45% 33% 42% / 45% 39% 52% 52% ;
 }
 
 /* compose */
@@ -856,7 +857,7 @@ i.fa.fa-ellipsis-h.fa-fw {
 }
 
 dropdown-menu__item a:active, .dropdown-menu__item a:focus, .dropdown-menu__item a:hover, .dropdown-menu__item button:active, .dropdown-menu__item button:focus, .dropdown-menu__item button:hover {
-  background: #000;
+  background: rgb(45, 45, 45);
   color: rgb(254, 99, 0);
   border-radius: 9px;
 }
@@ -910,4 +911,8 @@ div.columns-area__panels__main, div.stabs-bar__wrapper{
 }
 
 
+}
+
+div.ui__header {
+  
 }
