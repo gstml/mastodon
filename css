@@ -910,9 +910,21 @@ div.columns-area__panels__main, div.stabs-bar__wrapper{
   max-width: 50%;
 }
 
+div.reply-indicator{
+  max-height: 20em;
+}
+
 
 }
 
-div.ui__header {
-  
+svg.circular-progress {
+  color: #FE6300;
+}
+
+.loading-bar {
+ background: #FE6300;
+  background: linear-gradient(90deg, rgba(180,58,163,1) 0%, rgba(255,51,102,1) 50%, rgba(254,99,0,1) 100%); 
+}
+div.explore__search-header {
+  background-color: #2d2d2d;
 }
