@@ -974,3 +974,29 @@ div.account__header {
 .account__section-headline{
   border-radius: 20px;
 }
+
+.account__header__image {
+  height: 20em;
+}
+
+.account__header__tabs {
+  padding-top: 2em;
+}
+
+dl.verified {
+  background-color: #333;
+
+}
+
+
+.verified > dt.translate {
+  color: #ccc;
+}
+
+i.fa.fa-check.verified__mark {
+  color: #1d1d1d;
+  background-color: #AFD216;
+  padding: 0.2em;
+  margin-right: 0.125em;
+  border-radius: 50px;
+}
