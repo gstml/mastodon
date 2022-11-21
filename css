@@ -1000,3 +1000,12 @@ i.fa.fa-check.verified__mark {
   margin-right: 0.125em;
   border-radius: 50px;
 }
+
+h1.column-header {
+  background-color: #2d2d2d;
+}
+
+div.notification.notification-follow.focusable {
+  background-color: #353535;
+  border-radius: 20px;
+}
