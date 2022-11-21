@@ -903,11 +903,18 @@ div.status.status-unlisted.status-reply.muted {
   border-bottom-right-radius: 20px;;
 }
 /* SHRINK */
-@media only screen and (min-width:30em)
+@media only screen and (min-width: 600px)
 {
 
 div.columns-area__panels__main, div.stabs-bar__wrapper{
   max-width: 50%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 959px){
+  div.columns-area__panels__main, div.stabs-bar__wrapper{
+  max-width: 80%;
+}
+
 }
 
 div.reply-indicator{
@@ -943,4 +950,27 @@ span.poll__chart.leading {
   background: #FE6300;
   background: linear-gradient(90deg, rgba(180,58,163,1) 0%, rgba(255,51,102,1) 50%, rgba(254,99,0,1) 100%); 
   height: 0.5em;
+}
+
+.account__header__extra__links {
+  padding-bottom: 2em;
+}
+
+div.account__header {
+  background-color: #2d2d2d;
+  border-radius: 20px;
+  margin-bottom: 1em;
+
+}
+
+.account__section-headline a.active::after, .account__section-headline a.active::before, .account__section-headline button.active::after, .account__section-headline button.active::before, .notification__filter-bar a.active::after, .notification__filter-bar a.active::before, .notification__filter-bar button.active::after, .notification__filter-bar button.active::before {
+  border-color: transparent transparent #2d2d2d;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #2d2d2d;
+  border-left-color: transparent;
+}
+
+.account__section-headline{
+  border-radius: 20px;
 }
