@@ -266,7 +266,13 @@ a .account__avatar {
   position:relative;
   display:inline-block;
   border-radius: 36% 45% 33% 42% / 45% 39% 52% 52% ;
+  transition: all 0.61s ease-in-out;
 }
+
+a .account__avatar:hover{
+  transform: rotate(-7deg);
+}
+
 
 /* compose */
 
@@ -1008,4 +1014,31 @@ h1.column-header {
 div.notification.notification-follow.focusable {
   background-color: #353535;
   border-radius: 20px;
+}
+
+span.relationship-tag {
+  border-radius: 10px;
+  font-weight: 600;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  background: linear-gradient(300deg,#fe6300,  #ff3366, #DA29EB);
+  background-size: 180% 180%;
+  animation: gradient-animation 9s ease infinite;
+  transition: all 0.61s ease-in-out;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.relationship-tag > div h4 span, div div span, div.trends__item:nth-child(2) > div:nth-child(1) > a:nth-child(1) {
+  color: white;
 }
