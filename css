@@ -1129,3 +1129,20 @@ a.button {
 a.button:hover{
  transform: scale(1.1);  
 }
+
+a.button::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(90deg, #fe00da 0%, #ff3366 25%, #fe6300 100%);
+  z-index: -1;
+  transition: opacity 240ms linear;
+  opacity: 0;
+}
+
+a.button:hover::before {
+  opacity: 1;
+}
