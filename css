@@ -684,11 +684,15 @@ i.fa.fa-chevron-left.column-back-button__icon.fa-fw {
 img.parallax {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  background-color: #1F1F1F;
+
 }
 
-div.account__header__image {
-	 background-color: #2d2d2d;
+.account__header__image {
+  background-color: #1f1f1f;
+}
+
+.account__header__tabs{
+  padding-top: 1.7em;
 }
 
 div div dl {
@@ -913,7 +917,7 @@ div.status.status-unlisted.status-reply.muted {
 {
 
 div.columns-area__panels__main, div.stabs-bar__wrapper{
-  max-width: 50%;
+  max-width: 53%;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 959px){
@@ -981,14 +985,6 @@ div.account__header {
   border-radius: 20px;
 }
 
-.account__header__image {
-  height: 20em;
-}
-
-.account__header__tabs {
-  padding-top: 2em;
-}
-
 dl.verified {
   background-color: #333;
 
@@ -1040,6 +1036,10 @@ span.relationship-tag {
 }
 
 .relationship-tag > div h4 span, div div span, div.trends__item:nth-child(2) > div:nth-child(1) > a:nth-child(1) {
+  color: white;
+}
+
+.relationship-tag > span:nth-child(1){
   color: white;
 }
 
@@ -1145,4 +1145,8 @@ a.button::before {
 
 a.button:hover::before {
   opacity: 1;
+}
+
+div.reply-indicator__content.translate {
+  color: #d9d9d9;
 }
