@@ -697,11 +697,11 @@ i.fa.fa-chevron-left.column-back-button__icon.fa-fw {
 img.parallax {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-
 }
 
 .account__header__image {
   background-color: #1f1f1f;
+  height: auto;
 }
 
 .account__header__tabs{
