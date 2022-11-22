@@ -267,7 +267,6 @@ a .account__avatar {
   display:inline-block;
   border-radius: 36% 45% 33% 42% / 45% 39% 52% 52% ;
   transition: all 0.61s ease-in-out;
-  outline: 3px solid #2d2d2d;
 }
 
 a .account__avatar:hover{
@@ -1079,8 +1078,4 @@ div div span {
 
 a bdi strong {
   color: #d9d9d9;
-}
-
-div.status.status-public {
-  
 }
