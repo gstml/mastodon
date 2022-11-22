@@ -238,7 +238,7 @@ div.detailed-status__button {
   filter: saturate(0);
 }
 
-i.fa.fa-thumb-tack.status__prepend-icon.fa-fw {
+NOPEi.fa.fa-thumb-tack.status__prepend-icon.fa-fw {
   filter: saturate(0);
 }
 
@@ -267,6 +267,7 @@ a .account__avatar {
   display:inline-block;
   border-radius: 36% 45% 33% 42% / 45% 39% 52% 52% ;
   transition: all 0.61s ease-in-out;
+  outline: 3px solid #2d2d2d;
 }
 
 a .account__avatar:hover{
@@ -1053,4 +1054,33 @@ i.fa.fa-star.star-icon.fa-fw {
 
 i.fa.fa-user-plus.fa-fw {
   color:#ABFF33;
+}
+
+i.fa.fa-reply.status__prepend-icon.fa-fw {
+  color: #C133FF;
+}
+
+ 
+i.fa.fa-user-times.fa-fw {
+  color: #FF3333;
+}
+
+.fa-thumb-tack {
+  color: #FFD933;
+}
+
+p a span {
+  color: #999;
+}
+
+div div span {
+  color: #999;
+}
+
+a bdi strong {
+  color: #d9d9d9;
+}
+
+div.status.status-public {
+  
 }
