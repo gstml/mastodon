@@ -799,7 +799,7 @@ div.link-footer {
 }
 
 i.fa.fa-retweet.fa-fw {
-  color: #FE6300;
+  color: #FF3366;
 }
 
 div.modal-root__modal.boost-modal {
@@ -1041,4 +1041,16 @@ span.relationship-tag {
 
 .relationship-tag > div h4 span, div div span, div.trends__item:nth-child(2) > div:nth-child(1) > a:nth-child(1) {
   color: white;
+}
+
+i.fa.fa-pencil.fa-fw {
+  color: #33CAFF;
+}
+
+i.fa.fa-star.star-icon.fa-fw {
+  color: #FFAE33;
+}
+
+i.fa.fa-user-plus.fa-fw {
+  color:#ABFF33;
 }
