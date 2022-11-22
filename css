@@ -490,6 +490,19 @@ a.column-link.column-link--transparent.active {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   width: 50%;
+  background: linear-gradient(to right, #FE6300 0%, #FF3366 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+transition: all 0.5s ease-in-out; 
+}
+
+a.column-link.column-link--transparent:hover {
+  font-weight: 600;
+background: #33CAFF;
+background: linear-gradient(to right, #33CAFF 0%, #FE00DA 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 
 .column-link__icon:active {
@@ -1149,4 +1162,12 @@ a.button:hover::before {
 
 div.reply-indicator__content.translate {
   color: #d9d9d9;
+}
+
+span.poll__input {
+  background-color: #999999;
+}
+
+span.poll__input.active {
+  background-color: #fe6300;
 }
