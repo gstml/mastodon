@@ -1079,3 +1079,14 @@ div div span {
 a bdi strong {
   color: #d9d9d9;
 }
+
+div.dismissable-banner {
+  background-color: #2D2D2D;
+}
+
+.getting-started__trends {
+  background-color: #252424;
+  padding: 2em;
+  border-radius: 42% 53% 39% 51% / 66% 66% 59% 70% ;
+
+}
