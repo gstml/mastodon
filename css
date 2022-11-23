@@ -168,7 +168,9 @@ div div p {
 
 div span span,
 div.status__content__text.status__content__text--visible.translate {
-  color: #808080;
+  color: #999;
+  font-family: "Mulish";
+  line-height: 1.7em;
 }
 
 span.display-name__account {
@@ -507,9 +509,6 @@ background: linear-gradient(to right, #33CAFF 0%, #FE00DA 100%);
 
 .column-link__icon:active {
   color: inherit;
-}
-.icon-with-badge__badge {
-  background: #FF6300;
 }
 
 div.navigation-panel,
@@ -1170,4 +1169,14 @@ span.poll__input {
 
 span.poll__input.active {
   background-color: #fe6300;
+}
+
+.icon-with-badge__badge {
+  font-weight: 600;
+  background-color: #FE6300;
+background: linear-gradient(-45deg, #FE00DA, #FF3366);
+}
+
+i.fa.fa-file-text {
+ color: #ccc; 
 }
