@@ -1,4 +1,4 @@
-# mastodon
+# Mastodon
 
 I can't believe how effin' ugly Mustodon is.  
 But since *the only valiant way to complain is to create*, here's my attempt to make Mastodon cool on the web.  
