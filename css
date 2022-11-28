@@ -1642,6 +1642,17 @@ div.modal-root__overlay {
   border-radius: 50px;
 }
 
-div.columns-area__panels {
-  
+div.regeneration-indicator {
+  background-color: #2d2d2d;
+  color: #808080;
+}
+
+div.regeneration-indicator strong {
+  color: #999;
+  font-weight: bold;
+}
+
+/* 404 */
+.regeneration-indicator__figure img {
+  filter: saturate(0) brightness(1.2);
 }
