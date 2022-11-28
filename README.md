@@ -9,4 +9,6 @@ Reach out! ➜ https://mastodon.social/@gstml
 
 Apply using Stylebot or similar.  
 
+![Screenshot](https://i.imgur.com/bd1YgBY.png)
+
 ![Screenshot](https://i.imgur.com/sGateIv.png)
