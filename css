@@ -1584,6 +1584,20 @@ background: linear-gradient(to right, #FE00DA 0%, #FFD933 100%);
   -webkit-text-fill-color: transparent;
 }
 
+/* i retweet */
+
+button.status__action-bar__button.icon-button.active {
+  background-color: transparent;
+}
+
+button.icon-button i.fa-retweet::before {
+	display: inline;
+}
+
+button.icon-button.active > i {
+	-webkit-text-fill-color: inherit;
+}
+
 form.compose-form {
   
 }
