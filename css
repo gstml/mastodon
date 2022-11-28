@@ -826,9 +826,7 @@ div.compose-form {
 button.text-icon-button {
   color: #999999;
 }
-i.fa.fa-bookmark.fa-fw {
-  color: #7e7e7e;
-}
+
 
 span.character-counter.character-counter--over {
   font-weight: normal;
@@ -1634,7 +1632,7 @@ div.boost-modal__action-bar {
 
 div.modal-root__overlay {
   background: rgba( 9, 9, 9, 0.5);  
-  backdrop-filter: blur(50px)
+  backdrop-filter: blur(40px)
 }
 
 .report-modal button.button {
@@ -1655,4 +1653,72 @@ div.regeneration-indicator strong {
 /* 404 */
 .regeneration-indicator__figure img {
   filter: saturate(0) brightness(1.2);
+}
+
+/* Mute */
+
+div.mute-modal__container {
+  font-size: 1.2em;
+}
+
+div.modal-root__modal.mute-modal {
+  background-color: #353535;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.25);
+
+}
+
+div.mute-modal__action-bar {
+  background-color: #2d2d2d;
+}
+
+div.mute-modal__action-bar > .button{
+  background: linear-gradient(90deg, rgba(180,58,163,1) 0%, rgba(255,51,102,1) 50%, rgba(254,99,0,1) 100%);
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+}
+
+div.mute-modal__action-bar > .button:hover{
+  background: linear-gradient(-90deg, rgba(180,58,163,1) 0%, rgba(255,51,102,1) 50%, rgba(254,99,0,1) 100%);
+  border-radius: 20px;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
+}
+
+.block-modal__cancel-button, .confirmation-modal__cancel-button, .confirmation-modal__secondary-button, .mute-modal__cancel-button {
+	background-color: #1C1C1C;
+}
+
+.modal-root button.button {
+  border-radius: 20px;
+  background-color: red;
+}
+
+.modal-root  label span,
+.modal-root  span span {
+  color: #808080;
+  font-size: 0.8em;
+}
+
+.modal-root p span strong {
+  color: #33CAFF;
+}
+
+.modal-root svg path {
+  fill: #ABFF33;
+}
+
+.modal-root  select {
+  border-radius: 10px;
+  background-color: #282828;
+  color: #808080;
+  font-size: 0.85em;
+}
+
+button.button.mute-modal__cancel-button {
+  background: #232323;
+}
+
+button.button:nth-child(2) > span:nth-child(1){
+  color: white;
+  font-weight: bold;
 }
