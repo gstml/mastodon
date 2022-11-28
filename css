@@ -30,6 +30,12 @@ span.ellipsis {
   padding: 0.05em;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  transition: all 0.5s ease-in-out;
+}
+
+span.ellipsis:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  font-size: 0.963em;
 }
 
 svg.circular-progress {
@@ -1721,4 +1727,33 @@ button.button.mute-modal__cancel-button {
 button.button:nth-child(2) > span:nth-child(1){
   color: white;
   font-weight: bold;
+}
+
+/* Search results */
+
+.account__section-headline button.active {
+  background-color: #1a1a1a;
+  border-radius: ;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button {
+	color: #b4b4b4;
+}
+
+.account__section-headline > button {
+  background-color: #202020;
+  transition: all 0.5s ease-in-out;
+}
+
+.account__section-headline > button:hover {
+  background-color: #272727;
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.account__section-headline > button:nth-child(4){
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
