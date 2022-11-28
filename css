@@ -1500,3 +1500,90 @@ i.fa.fa-link {
 .conversation__content a:hover {
   color: #FF3366;
 }
+
+/* ABOUT PAGE */
+
+div.scrollable.about {
+  font-family: "Mulish";
+  background-color: #202020;
+  border-radius: 20px;
+}
+
+div.image.loaded.about__header__hero {
+  background-color: #202020;
+  border-radius: 20px;
+  transition: all 1s ease-in-out;
+}
+
+div.image.loaded.about__header__hero:hover {
+  transform: scale(1.25);
+  padding-bottom: 1em;
+}
+
+div.scrollable.about h1 {
+  background: linear-gradient(to left, #FE00DA 0%, #FFD933 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+}
+
+div.about__meta {
+  font-family: "Mulish";
+  background-color: #2D2D2D;
+  border-radius: 20px;
+}
+
+div.about__meta__column span {
+  font-weight: bold;
+  color: #E9EBEB;
+}
+
+.about__header > p:nth-child(3) > span:nth-child(1){
+  font-weight: 600;
+}
+
+.about__header a.about__mail {
+  color: #FF3366;
+  font-weight: 600;
+  background-color: #2a2a2a;
+  padding: 0.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-radius: 12px;
+  transition: all 1s ease-in-out;
+}
+
+a.about__mail {
+  color: #b4b4b4;
+}
+
+a.about__mail:hover {  
+  background: linear-gradient(to right, #FE00DA 0%, #33CAFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div.about__section__title {
+  color: #E9EBEB;
+  border-radius: 20px;
+  background-color: #2D2D2D;
+}
+
+.about p span {
+  font-size: 0.9em;
+  color: #808080;
+}
+
+.about span.display-name__account {
+  color: #b4b4b4;
+}
+
+.about strong.display-name__html {
+background: linear-gradient(to right, #FE00DA 0%, #FFD933 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form.compose-form {
+  
+}
