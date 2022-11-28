@@ -1,6 +1,12 @@
 # mastodon
 
-re-CSS of the Mastodon web interface  
-(use StyleBot in your browser to apply)
+I can't believe how effin' ugly Mustodon is.  
+But since *the only valiant way to complain is to create*, here's my attempt to make Mastodon cool on the web.  
 
-![Screenshot](https://i.imgur.com/XOEc0iR.png)
+Vanilla CSS with a few bugs here and there. Maybe not everything is covered.
+Wanna help me squash those bug and style what I've missed?
+Reach out! ➜ https://mastodon.social/@gstml  
+
+Apply using Stylebot or similar.
+
+![Screenshot](https://i.imgur.com/sGateIv.png)
