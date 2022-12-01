@@ -30,12 +30,6 @@ span.ellipsis {
   padding: 0.05em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  transition: all 0.5s ease-in-out;
-}
-
-span.ellipsis:hover {
-  background-color: rgba(0, 0, 0, 0.25);
-  font-size: 0.963em;
 }
 
 svg.circular-progress {
@@ -79,6 +73,8 @@ div.detailed-status.detailed-status-unlisted {
 
 div.columns-area__panels__main {
   background-color: #2D2D2D;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .columns-area__panels{
@@ -91,12 +87,6 @@ div.scrollable {
 
 div.columns-area.columns-area--mobile {
  background-color: WIP;
-}
-
-div.item-list {
- padding: 2em;
- padding-bottom: 1.5em;
- padding-top: 0em;
 }
 
 .columns-area__panels__main div.tabs-bar__wrapper div#tabs-bar__portal button.column-back-button span {
@@ -175,6 +165,67 @@ div h1 button {
 
 /* TOOTS */
 
+/*statuses */
+
+div.status.status-public,
+.detailed-status {
+  border-radius: 20px;
+  background-color: #343434;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 1em;
+}
+
+XXX.scrollable > div:nth-child(1)
+ {
+  border-radius: 20px;
+  background-color: #3B3641;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 1em;
+}
+.scrollable > div:nth-child(1):hover {
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.4);
+}
+
+div.status.status-unlisted,
+div.detailed-status.detailed-status-unlisted {
+    border-radius: 20px;
+  background-color: #353F33;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 1em;
+}
+div.status.status-unlisted:hover,
+div.detailed-status.detailed-status-unlisted:hover {
+  background-color: #434F40;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.4);
+}
+
+div.status.status-direct,
+div.detailed-status.detailed-status-direct {
+  border-radius: 20px;
+  background-color: #3F3334;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 1em;
+}
+div.status.status-direct:hover,
+div.detailed-status.detailed-status-direct:hover {
+  background-color: #4E4040;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.4);
+}
+
+div.status.status-private,
+div.detailed-status.detailed-status-private {
+  border-radius: 20px;
+  background-color: #343B3F;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 1em;
+}
+div.status.status-private:hover,
+div.detailed-status.detailed-status-private:hover {
+  background-color: #424B50;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.4);
+}
+
+
 .focusable {
   transition: all 0.5s ease-in-out;
 }
@@ -194,15 +245,6 @@ div div p {
   font-family: "Mulish";
   color: #c4c4c4;
   line-height: 1.6em;
-}
-
-div.status.status-public,
-.detailed-status,
-div.status.status-unlisted {
-  border-radius: 20px;
-  background-color: #343434;
-  transition: all 0.3s ease-in-out;
-  margin-bottom: 1em;
 }
 
 div.status__wrapper.status__wrapper-public.focusable {
@@ -508,7 +550,7 @@ span.poll__input.active {
 
 div.detailed-status__meta{
   font-family: "Mulish";
-	 color: #808080;
+   color: #808080;
 }
 
 a.detailed-status__application {
@@ -595,7 +637,7 @@ div.detailed-status.detailed-status-unlisted {
 }
 
 div.focusable.detailed-status__wrapper:focus {
-	padding: 1em;
+  padding: 1em;
   padding-top: 2.25em;
   margin-left: 2em;
   margin-right: 2em;
@@ -638,7 +680,7 @@ button.load-more.load-gap:hover{
 }
 
 .notification__favourite-icon-wrapper .star-icon:hover {
-	transform: rotate(360deg);
+  transform: rotate(360deg);
   scale: 1.8;
 }
 
@@ -832,7 +874,9 @@ div.compose-form {
 button.text-icon-button {
   color: #999999;
 }
-
+i.fa.fa-bookmark.fa-fw {
+  color: #7e7e7e;
+}
 
 span.character-counter.character-counter--over {
   font-weight: normal;
@@ -876,20 +920,20 @@ button.button.button--block {
   border: 1px solid #202020;
   background-color: #393939;
   color: #999999;
-	transition: all 10ms ease-in;
+  transition: all 10ms ease-in;
   width: 100%
 }
 
 button.button.button--block:hover{
-	 background: linear-gradient(90deg,#fe6300,#ff3366,#fe00da);
-	 color: white;
+   background: linear-gradient(90deg,#fe6300,#ff3366,#fe00da);
+   color: white;
 }
 
 .compose-form__publish-button-wrapper {
-	 transition: all 450ms ease-in;
+   transition: all 450ms ease-in;
 }
 .compose-form__publish-button-wrapper:hover{
-	 transform: scale(1.1);
+   transform: scale(1.1);
 }
 
 .link-footer > p:nth-child(2){
@@ -897,7 +941,7 @@ button.button.button--block:hover{
 }
 
 div.link-footer {
-	font-family: "Mulish";
+  font-family: "Mulish";
   background-color: #252525;
   border-radius: 20px;
   padding: 1em;
@@ -918,7 +962,7 @@ div.link-footer a:hover {
 }
 
 div.link-footer p strong {
-	 color: #c4c4c4;
+   color: #c4c4c4;
 }
 
 .link-footer > p > a span{
@@ -1043,13 +1087,13 @@ a.button {
 
 @keyframes gradient-animation {
   0% {
-	 background-position: 0% 50%;
+   background-position: 0% 50%;
   }
   50% {
-	 background-position: 100% 50%;
+   background-position: 100% 50%;
   }
   100% {
-	 background-position: 0% 50%;
+   background-position: 0% 50%;
   }
 }
 
@@ -1170,13 +1214,13 @@ span.relationship-tag {
 
 @keyframes gradient-animation {
   0% {
-	 background-position: 0% 50%;
+   background-position: 0% 50%;
   }
   50% {
-	 background-position: 100% 50%;
+   background-position: 100% 50%;
   }
   100% {
-	 background-position: 0% 50%;
+   background-position: 0% 50%;
   }
 }
 
@@ -1273,13 +1317,13 @@ background: linear-gradient(to right,
 }
 
 .account__header__account-note{
-	 background-color:rgba(17, 17, 17, 0.25);
-	 padding: 1em
+   background-color:rgba(17, 17, 17, 0.25);
+   padding: 1em
 }
 
 .account__header__account-note textarea::placeholder,
 .account__header__account-note textarea {
-	color: #565656;
+  color: #565656;
 }
 
 div.follow_requests-unlocked_explanation {
@@ -1484,7 +1528,7 @@ div.conversation.focusable.muted.conversation--unread {
 }
 
 .conversation__unread {
-	background:  #FE6300;
+  background:  #FE6300;
 }
 
 .conversation__content__names {
@@ -1493,7 +1537,7 @@ div.conversation.focusable.muted.conversation--unread {
 }
 
 i.fa.fa-link {
- color: #FE6300; 
+ color: #FE6300;
 }
 
 .conversation__content a {
@@ -1561,7 +1605,7 @@ a.about__mail {
   color: #b4b4b4;
 }
 
-a.about__mail:hover {  
+a.about__mail:hover {
   background: linear-gradient(to right, #FE00DA 0%, #33CAFF 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1595,11 +1639,11 @@ button.status__action-bar__button.icon-button.active {
 }
 
 button.icon-button i.fa-retweet::before {
-	display: inline;
+  display: inline;
 }
 
 button.icon-button.active > i {
-	-webkit-text-fill-color: inherit;
+  -webkit-text-fill-color: inherit;
 }
 
 div.upload-progress__tracker {
@@ -1611,12 +1655,12 @@ div.upload-progress__tracker {
 .report-modal{
   border-radius: 20px;
   border: 1px solid #2d2d2d;
- background-color: #1c1c1c; 
+ background-color: #1c1c1c;
 box-shadow: 0px 10px 17px 10px rgba(0,0,0,0.75);
 }
 
 .setting-text__wrapper{
-   background-color: transparent; 
+   background-color: transparent;
 }
 
 textarea.setting-text.light {
@@ -1628,7 +1672,7 @@ textarea.setting-text.light {
 div.modal-root__modal.boost-modal {
   border-radius: 20px;
   border: 1px solid #2d2d2d;
-  background-color: #1c1c1c; 
+  background-color: #1c1c1c;
   box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.4);
 }
 
@@ -1637,8 +1681,8 @@ div.boost-modal__action-bar {
 }
 
 div.modal-root__overlay {
-  background: rgba( 9, 9, 9, 0.5);  
-  backdrop-filter: blur(40px)
+  background: rgba( 9, 9, 9, 0.5);
+  backdrop-filter: blur(50px)
 }
 
 .report-modal button.button {
@@ -1646,114 +1690,6 @@ div.modal-root__overlay {
   border-radius: 50px;
 }
 
-div.regeneration-indicator {
-  background-color: #2d2d2d;
-  color: #808080;
-}
-
-div.regeneration-indicator strong {
-  color: #999;
-  font-weight: bold;
-}
-
-/* 404 */
-.regeneration-indicator__figure img {
-  filter: saturate(0) brightness(1.2);
-}
-
-/* Mute */
-
-div.mute-modal__container {
-  font-size: 1.2em;
-}
-
-div.modal-root__modal.mute-modal {
-  background-color: #353535;
-  border-radius: 20px;
-  box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.25);
-
-}
-
-div.mute-modal__action-bar {
-  background-color: #2d2d2d;
-}
-
-div.mute-modal__action-bar > .button{
-  background: linear-gradient(90deg, rgba(180,58,163,1) 0%, rgba(255,51,102,1) 50%, rgba(254,99,0,1) 100%);
-  border-radius: 20px;
-  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
-}
-
-div.mute-modal__action-bar > .button:hover{
-  background: linear-gradient(-90deg, rgba(180,58,163,1) 0%, rgba(255,51,102,1) 50%, rgba(254,99,0,1) 100%);
-  border-radius: 20px;
-  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
-}
-
-.block-modal__cancel-button, .confirmation-modal__cancel-button, .confirmation-modal__secondary-button, .mute-modal__cancel-button {
-	background-color: #1C1C1C;
-}
-
-.modal-root button.button {
-  border-radius: 20px;
-  background-color: red;
-}
-
-.modal-root  label span,
-.modal-root  span span {
-  color: #808080;
-  font-size: 0.8em;
-}
-
-.modal-root p span strong {
-  color: #33CAFF;
-}
-
-.modal-root svg path {
-  fill: #ABFF33;
-}
-
-.modal-root  select {
-  border-radius: 10px;
-  background-color: #282828;
-  color: #808080;
-  font-size: 0.85em;
-}
-
-button.button.mute-modal__cancel-button {
-  background: #232323;
-}
-
-button.button:nth-child(2) > span:nth-child(1){
-  color: white;
-  font-weight: bold;
-}
-
-/* Search results */
-
-.account__section-headline button.active {
-  background-color: #1a1a1a;
-  border-radius: ;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-}
-
-.account__section-headline a, .account__section-headline button, .notification__filter-bar a, .notification__filter-bar button {
-	color: #b4b4b4;
-}
-
-.account__section-headline > button {
-  background-color: #202020;
-  transition: all 0.5s ease-in-out;
-}
-
-.account__section-headline > button:hover {
-  background-color: #272727;
-  transform: scale(1.05);
-  z-index: 2;
-}
-
-.account__section-headline > button:nth-child(4){
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
+div.flex-spacer {
+  
 }
