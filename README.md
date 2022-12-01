@@ -1,6 +1,7 @@
 # Mastodon
 
 ![Screenshot](https://i.imgur.com/bd1YgBY.png)  
+![Screenshot](https://i.imgur.com/ka6ZYXY.png)  
 
 I can't believe how effin' ugly Mustodon is.  
 But since *the only valiant way to complain is to create*, here's my attempt to make Mastodon cool on the web.  
@@ -10,7 +11,7 @@ Wanna help me squash those bugs and style what I've missed?
 Reach out! ➜ https://mastodon.social/@gstml  
 
 Apply using Stylebot or similar.    
-Workswith the settings below:  
+Works with the settings below:  
 
 ![Screenshot of compatible MAstodon web UI settings](https://i.imgur.com/yiMORMy.png)
 
