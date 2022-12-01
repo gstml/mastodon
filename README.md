@@ -1,8 +1,12 @@
 # Mastodon
 
 ![Screenshot](https://i.imgur.com/bd1YgBY.png)  
+Profile page  
+
 ![Screenshot](https://i.imgur.com/ka6ZYXY.png)  
 ![Screenshot](https://i.imgur.com/euYwhqK.png)
+![Screenshot](https://i.imgur.com/hShRBom.png)  
+Selected toot  
 
 I can't believe how effin' ugly Mustodon is.  
 But since *the only valiant way to complain is to create*, here's my attempt to make Mastodon cool on the web.  
